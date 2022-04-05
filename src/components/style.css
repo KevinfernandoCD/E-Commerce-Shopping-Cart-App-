@@ -1,0 +1,62 @@
+.home{
+    display: flex;
+}
+
+.productPage{
+
+    display: flex;
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+.filters{
+    background-color: white;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin:10px;
+    height:35vh;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+.filters > span{
+    padding-bottom: 15px;
+    font-weight: 400;
+     color: grey;
+
+}
+
+.card{
+    display: flex;
+justify-content: center;
+align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+
+.card:hover{
+    box-shadow: 5px 10px 8px #888888;
+
+}
+
+
+.productSummary {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+
+
+}
+.summary{
+    width: 20%;
+}

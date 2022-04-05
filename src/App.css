@@ -1,0 +1,12 @@
+.item{
+  margin-left: 40px;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.item:hover{
+  text-decoration: underline;
+}
